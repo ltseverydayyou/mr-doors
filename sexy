@@ -3746,6 +3746,13 @@ Tab8:AddButton({
   	end    
 })
 
+Tab6:AddButton({
+    Name = "Entity Replicator",
+    Callback = function()
+              loadstring(game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua")()
+      end    
+})
+
 Tab8:AddLabel("UI still in beta if there is any bugs report it to me lol")
 
 OrionLib:MakeNotification({
